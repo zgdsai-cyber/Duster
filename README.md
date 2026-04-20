@@ -57,3 +57,18 @@ print(system.status_report())
 pip install pytest
 python -m pytest tests/ -v
 ```
+
+## Local Web Demo
+
+You can also try the system in a browser using the built-in demo server:
+
+```bash
+python -m traffic_system.webapp
+```
+
+Then open http://127.0.0.1:8000 to:
+
+- trigger accident and traffic-jam incidents on sample routes
+- run a monitoring cycle manually
+- resolve incidents and inspect live fleet status
+- reset the in-memory demo state
